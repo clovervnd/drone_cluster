@@ -1,0 +1,250 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AcquireMobilityInfo	model/v2v-control-client.cc	/^void V2vControlClient::AcquireMobilityInfo (void){$/;"	f	class:ns3::V2vControlClient
+CH	model/v2v-cluster-sap.h	/^        CH,$/;"	e	enum:ns3::V2vClusterSap::NodeDegree
+CLUSTER_FORMATION	model/v2v-control-client.h	/^        CLUSTER_FORMATION,$/;"	e	enum:ns3::V2vControlClient::NodeStatus
+CLUSTER_HEAD_ELECTION	model/v2v-control-client.h	/^        CLUSTER_HEAD_ELECTION,$/;"	e	enum:ns3::V2vControlClient::NodeStatus
+CLUSTER_INITIALIZATION	model/v2v-control-client.h	/^        CLUSTER_INITIALIZATION = 0,$/;"	e	enum:ns3::V2vControlClient::NodeStatus
+CLUSTER_STATES	model/v2v-control-client.h	/^        CLUSTER_STATES$/;"	e	enum:ns3::V2vControlClient::NodeStatus
+CLUSTER_UPDATE	model/v2v-control-client.h	/^        CLUSTER_UPDATE,$/;"	e	enum:ns3::V2vControlClient::NodeStatus
+CM	model/v2v-cluster-sap.h	/^        CM,$/;"	e	enum:ns3::V2vClusterSap::NodeDegree
+ClusterStatusName	model/v2v-control-client.cc	/^ClusterStatusName[V2vControlClient::CLUSTER_STATES] =$/;"	m	namespace:ns3	file:
+ConnectionCHFailed	model/v2v-control-client.cc	/^V2vControlClient::ConnectionCHFailed (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+ConnectionCHSucceeded	model/v2v-control-client.cc	/^V2vControlClient::ConnectionCHSucceeded (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+ConnectionFailed	model/v2v-control-client.cc	/^V2vControlClient::ConnectionFailed (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+ConnectionSucceeded	model/v2v-control-client.cc	/^V2vControlClient::ConnectionSucceeded (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+CreateIncidentSocket	model/v2v-control-client.cc	/^V2vControlClient::CreateIncidentSocket (Address from)$/;"	f	class:ns3::V2vControlClient
+DEGREE_STATES	model/v2v-cluster-sap.h	/^        DEGREE_STATES$/;"	e	enum:ns3::V2vClusterSap::NodeDegree
+DegreeName	model/v2v-control-client.cc	/^DegreeName[V2vClusterSap::DEGREE_STATES] =$/;"	m	namespace:ns3	file:
+Deserialize	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::Deserialize(Buffer::Iterator start) {$/;"	f	class:ns3::V2vClusterInfoHeader
+Deserialize	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::Deserialize(Buffer::Iterator start) {$/;"	f	class:ns3::V2vFormClusterHeader
+Deserialize	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::Deserialize(Buffer::Iterator start) {$/;"	f	class:ns3::V2vIncidentEventHeader
+Deserialize	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::Deserialize(Buffer::Iterator start) {$/;"	f	class:ns3::V2vInitiateClusterHeader
+DoAssignStreams	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoAssignStreams (int64_t stream)$/;"	f	class:ns3::V2vMobilityModel
+DoDispose	model/v2v-control-client.cc	/^V2vControlClient::DoDispose (void) {$/;"	f	class:ns3::V2vControlClient
+DoDispose	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoDispose (void)$/;"	f	class:ns3::V2vMobilityModel
+DoGetPosition	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoGetPosition (void) const$/;"	f	class:ns3::V2vMobilityModel
+DoGetVelocity	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoGetVelocity (void) const$/;"	f	class:ns3::V2vMobilityModel
+DoInitialize	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoInitialize (void)$/;"	f	class:ns3::V2vMobilityModel
+DoInitializePrivate	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoInitializePrivate (void)$/;"	f	class:ns3::V2vMobilityModel
+DoRun	test/v2v-test-suite.cc	/^void V2vClusterInfoHeaderTestCase::DoRun(void) {$/;"	f	class:V2vClusterInfoHeaderTestCase
+DoRun	test/v2v-test-suite.cc	/^void V2vControlClientTestCase::DoRun(void) {$/;"	f	class:V2vControlClientTestCase
+DoRun	test/v2v-test-suite.cc	/^void V2vFormClusterHeaderTestCase::DoRun(void) {$/;"	f	class:V2vFormClusterHeaderTestCase
+DoRun	test/v2v-test-suite.cc	/^void V2vIncidentEventHeaderTestCase::DoRun(void) {$/;"	f	class:V2vIncidentEventHeaderTestCase
+DoRun	test/v2v-test-suite.cc	/^void V2vInitiateClusterHeaderTestCase::DoRun(void) {$/;"	f	class:V2vInitiateClusterHeaderTestCase
+DoRun	test/v2v-test-suite.cc	/^void V2vUdpEndToEndTestCase::DoRun(void) {$/;"	f	class:V2vUdpEndToEndTestCase
+DoSetPosition	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoSetPosition (const Vector &position)$/;"	f	class:ns3::V2vMobilityModel
+DoWalk	model/v2v-mobility-model.cc	/^V2vMobilityModel::DoWalk (Time delayLeft)$/;"	f	class:ns3::V2vMobilityModel
+EMERGENCY_EVENT	model/v2v-cluster-sap.h	/^        EMERGENCY_EVENT = 0,$/;"	e	enum:ns3::V2vClusterSap::IncidentType
+FormCluster	model/v2v-control-client.cc	/^V2vControlClient::FormCluster (void){$/;"	f	class:ns3::V2vControlClient
+GetClusterId	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::GetClusterId(void) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+GetDirection	model/v2v-mobility-model.cc	/^Vector V2vMobilityModel::GetDirection(void) const{$/;"	f	class:ns3::V2vMobilityModel
+GetIncidentInfo	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::GetIncidentInfo(void) const {$/;"	f	class:ns3::V2vIncidentEventHeader
+GetInstanceTypeId	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::GetInstanceTypeId(void) const {$/;"	f	class:ns3::V2vClusterInfoHeader
+GetInstanceTypeId	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::GetInstanceTypeId(void) const {$/;"	f	class:ns3::V2vFormClusterHeader
+GetInstanceTypeId	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::GetInstanceTypeId(void) const {$/;"	f	class:ns3::V2vIncidentEventHeader
+GetInstanceTypeId	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::GetInstanceTypeId(void) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+GetListeningSocket	model/v2v-control-client.cc	/^V2vControlClient::GetListeningSocket (void) const {$/;"	f	class:ns3::V2vControlClient
+GetMobilityInfo	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::GetMobilityInfo(void) const {$/;"	f	class:ns3::V2vClusterInfoHeader
+GetMobilityInfo	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::GetMobilityInfo(void) const {$/;"	f	class:ns3::V2vFormClusterHeader
+GetSeq	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::GetSeq(void) const {$/;"	f	class:ns3::V2vClusterInfoHeader
+GetSeq	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::GetSeq(void) const {$/;"	f	class:ns3::V2vFormClusterHeader
+GetSeq	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::GetSeq(void) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+GetSerializedSize	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::GetSerializedSize(void) const {$/;"	f	class:ns3::V2vClusterInfoHeader
+GetSerializedSize	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::GetSerializedSize(void) const {$/;"	f	class:ns3::V2vFormClusterHeader
+GetSerializedSize	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::GetSerializedSize(void) const {$/;"	f	class:ns3::V2vIncidentEventHeader
+GetSerializedSize	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::GetSerializedSize(void) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+GetSocket	model/v2v-control-client.cc	/^V2vControlClient::GetSocket (void) const {$/;"	f	class:ns3::V2vControlClient
+GetTs	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::GetTs(void) const {$/;"	f	class:ns3::V2vIncidentEventHeader
+GetTs	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::GetTs(void) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+GetTypeId	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::GetTypeId(void) {$/;"	f	class:ns3::V2vClusterInfoHeader
+GetTypeId	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::GetTypeId(void) {$/;"	f	class:ns3::V2vFormClusterHeader
+GetTypeId	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::GetTypeId(void) {$/;"	f	class:ns3::V2vIncidentEventHeader
+GetTypeId	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::GetTypeId(void) {$/;"	f	class:ns3::V2vInitiateClusterHeader
+GetTypeId	model/v2v-control-client.cc	/^TypeId V2vControlClient::GetTypeId(void) {$/;"	f	class:ns3::V2vControlClient
+GetTypeId	model/v2v-mobility-model.cc	/^V2vMobilityModel::GetTypeId (void)$/;"	f	class:ns3::V2vMobilityModel
+HandleAccept	model/v2v-control-client.cc	/^V2vControlClient::HandleAccept (Ptr<Socket> s, const Address& from) {$/;"	f	class:ns3::V2vControlClient
+HandlePeerClose	model/v2v-control-client.cc	/^V2vControlClient::HandlePeerClose (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+HandlePeerError	model/v2v-control-client.cc	/^V2vControlClient::HandlePeerError (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+HandleRead	model/v2v-control-client.cc	/^V2vControlClient::HandleRead (Ptr<Socket> socket) {$/;"	f	class:ns3::V2vControlClient
+INCIDENT_STATES	model/v2v-cluster-sap.h	/^        INCIDENT_STATES$/;"	e	enum:ns3::V2vClusterSap::IncidentType
+IncidentInfo	model/v2v-cluster-sap.h	/^    struct IncidentInfo{$/;"	s	class:ns3::V2vClusterSap
+IncidentName	model/v2v-control-client.cc	/^IncidentName[V2vClusterSap::INCIDENT_STATES] =$/;"	m	namespace:ns3	file:
+IncidentType	model/v2v-cluster-sap.h	/^    enum IncidentType{$/;"	g	class:ns3::V2vClusterSap
+InitiateCluster	model/v2v-control-client.cc	/^V2vControlClient::InitiateCluster (void){$/;"	f	class:ns3::V2vControlClient
+Install	helper/v2v-control-client-helper.cc	/^V2vControlClientHelper::Install (NodeContainer c) const$/;"	f	class:ns3::V2vControlClientHelper
+Install	helper/v2v-control-client-helper.cc	/^V2vControlClientHelper::Install (Ptr<Node> node) const$/;"	f	class:ns3::V2vControlClientHelper
+Install	helper/v2v-control-client-helper.cc	/^V2vControlClientHelper::Install (std::string nodeName) const$/;"	f	class:ns3::V2vControlClientHelper
+InstallPriv	helper/v2v-control-client-helper.cc	/^V2vControlClientHelper::InstallPriv (Ptr<Node> node) const$/;"	f	class:ns3::V2vControlClientHelper
+IsSlowestNode	model/v2v-control-client.cc	/^V2vControlClient::IsSlowestNode (void){$/;"	f	class:ns3::V2vControlClient
+IsStable	model/v2v-control-client.cc	/^V2vControlClient::IsStable (Vector velocity){$/;"	f	class:ns3::V2vControlClient
+MODE_DISTANCE	model/v2v-mobility-model.h	/^    MODE_DISTANCE,$/;"	e	enum:ns3::V2vMobilityModel::Mode
+MODE_TIME	model/v2v-mobility-model.h	/^    MODE_TIME$/;"	e	enum:ns3::V2vMobilityModel::Mode
+MergeCheck	model/v2v-control-client.cc	/^V2vControlClient::MergeCheck (void){$/;"	f	class:ns3::V2vControlClient
+Mode	model/v2v-mobility-model.h	/^  enum Mode  {$/;"	g	class:ns3::V2vMobilityModel
+NOTIFICATION_EVENT	model/v2v-cluster-sap.h	/^        NOTIFICATION_EVENT,$/;"	e	enum:ns3::V2vClusterSap::IncidentType
+NeighborInfo	model/v2v-cluster-sap.h	/^    struct NeighborInfo{$/;"	s	class:ns3::V2vClusterSap
+NodeDegree	model/v2v-cluster-sap.h	/^    enum NodeDegree{$/;"	g	class:ns3::V2vClusterSap
+NodeStatus	model/v2v-control-client.h	/^	enum NodeStatus{$/;"	g	class:ns3::V2vControlClient
+Print	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::Print(std::ostream &os) const {$/;"	f	class:ns3::V2vClusterInfoHeader
+Print	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::Print(std::ostream &os) const {$/;"	f	class:ns3::V2vFormClusterHeader
+Print	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::Print(std::ostream &os) const {$/;"	f	class:ns3::V2vIncidentEventHeader
+Print	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::Print(std::ostream &os) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+PrintStatistics	model/v2v-control-client.cc	/^V2vControlClient::PrintStatistics (std::ostream &os){$/;"	f	class:ns3::V2vControlClient
+Rebound	model/v2v-mobility-model.cc	/^V2vMobilityModel::Rebound (Time delayLeft)$/;"	f	class:ns3::V2vMobilityModel
+RemoveIncidentSocket	model/v2v-control-client.cc	/^V2vControlClient::RemoveIncidentSocket (void)$/;"	f	class:ns3::V2vControlClient
+SIMULATION_TIME_FORMAT	examples/v2v-clustering-example.cc	37;"	d	file:
+STANDALONE	model/v2v-cluster-sap.h	/^        STANDALONE = 0,$/;"	e	enum:ns3::V2vClusterSap::NodeDegree
+ScheduleIncidentEvent	model/v2v-control-client.cc	/^V2vControlClient::ScheduleIncidentEvent (Time dt){$/;"	f	class:ns3::V2vControlClient
+ScheduleTransmit	model/v2v-control-client.cc	/^V2vControlClient::ScheduleTransmit (Time dt)$/;"	f	class:ns3::V2vControlClient
+Send	model/v2v-control-client.cc	/^V2vControlClient::Send (void) {$/;"	f	class:ns3::V2vControlClient
+SendIncident	model/v2v-control-client.cc	/^V2vControlClient::SendIncident (void){$/;"	f	class:ns3::V2vControlClient
+Serialize	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::Serialize(Buffer::Iterator start) const {$/;"	f	class:ns3::V2vClusterInfoHeader
+Serialize	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::Serialize(Buffer::Iterator start) const {$/;"	f	class:ns3::V2vFormClusterHeader
+Serialize	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::Serialize(Buffer::Iterator start) const {$/;"	f	class:ns3::V2vIncidentEventHeader
+Serialize	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::Serialize(Buffer::Iterator start) const {$/;"	f	class:ns3::V2vInitiateClusterHeader
+SetAttribute	helper/v2v-control-client-helper.cc	/^V2vControlClientHelper::SetAttribute (std::string name, const AttributeValue &value)$/;"	f	class:ns3::V2vControlClientHelper
+SetClusterId	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::SetClusterId(uint64_t clusterId){$/;"	f	class:ns3::V2vInitiateClusterHeader
+SetDirection	model/v2v-mobility-model.cc	/^void V2vMobilityModel::SetDirection(const Vector& direction){$/;"	f	class:ns3::V2vMobilityModel
+SetIncidentInfo	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::SetIncidentInfo(V2vClusterSap::IncidentInfo incidentInfo) {$/;"	f	class:ns3::V2vIncidentEventHeader
+SetMobilityInfo	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::SetMobilityInfo(V2vClusterSap::NeighborInfo mobilityInfo){$/;"	f	class:ns3::V2vClusterInfoHeader
+SetMobilityInfo	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::SetMobilityInfo(V2vClusterSap::NeighborInfo mobilityInfo){$/;"	f	class:ns3::V2vFormClusterHeader
+SetSeq	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::SetSeq(uint64_t seq) {$/;"	f	class:ns3::V2vClusterInfoHeader
+SetSeq	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::SetSeq(uint64_t seq) {$/;"	f	class:ns3::V2vFormClusterHeader
+SetSeq	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::SetSeq(uint64_t seq) {$/;"	f	class:ns3::V2vInitiateClusterHeader
+SetSpeedVariation	model/v2v-mobility-model.cc	/^V2vMobilityModel::SetSpeedVariation(double variation){$/;"	f	class:ns3::V2vMobilityModel
+StartApplication	model/v2v-control-client.cc	/^V2vControlClient::StartApplication (void)$/;"	f	class:ns3::V2vControlClient
+StartListeningLocal	model/v2v-control-client.cc	/^V2vControlClient::StartListeningLocal (void)    \/\/ Called at time specified by Start$/;"	f	class:ns3::V2vControlClient
+StatusReport	model/v2v-control-client.cc	/^V2vControlClient::StatusReport (void){$/;"	f	class:ns3::V2vControlClient
+StopApplication	model/v2v-control-client.cc	/^V2vControlClient::StopApplication (void) \/\/ Called at time specified by Stop$/;"	f	class:ns3::V2vControlClient
+StopListeningLocal	model/v2v-control-client.cc	/^V2vControlClient::StopListeningLocal (void)     \/\/ Called at time specified by Stop$/;"	f	class:ns3::V2vControlClient
+SuitabilityCheck	model/v2v-control-client.cc	/^V2vControlClient::SuitabilityCheck (void){$/;"	f	class:ns3::V2vControlClient
+ToString	model/v2v-control-client.cc	/^static const std::string & ToString (V2vClusterSap::IncidentType incidentType){$/;"	f	namespace:ns3
+ToString	model/v2v-control-client.cc	/^static const std::string & ToString (V2vClusterSap::NodeDegree nodeDegree){$/;"	f	namespace:ns3
+ToString	model/v2v-control-client.cc	/^static const std::string & ToString (V2vControlClient::NodeStatus status){$/;"	f	namespace:ns3
+UpdateNeighborList	model/v2v-control-client.cc	/^void V2vControlClient::UpdateNeighborList (void){$/;"	f	class:ns3::V2vControlClient
+UpdateNeighbors	model/v2v-control-client.cc	/^V2vControlClient::UpdateNeighbors (void){$/;"	f	class:ns3::V2vControlClient
+V2V_CLUSTER_HEADER_H	model/v2v-cluster-header.h	23;"	d
+V2V_CLUSTER_SAP_H	model/v2v-cluster-sap.h	23;"	d
+V2V_CONTROL_CLIENT_HELPER_H	helper/v2v-control-client-helper.h	23;"	d
+V2V_CONTROL_CLIENT_H_	model/v2v-control-client.h	23;"	d
+V2V_MOBILITY_MODEL_H	model/v2v-mobility-model.h	23;"	d
+V2vClusterInfoHeader	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::V2vClusterInfoHeader() :$/;"	f	class:ns3::V2vClusterInfoHeader
+V2vClusterInfoHeader	model/v2v-cluster-header.h	/^class V2vClusterInfoHeader: public Header {$/;"	c	namespace:ns3
+V2vClusterInfoHeaderTestCase	test/v2v-test-suite.cc	/^V2vClusterInfoHeaderTestCase::V2vClusterInfoHeaderTestCase() :$/;"	f	class:V2vClusterInfoHeaderTestCase
+V2vClusterInfoHeaderTestCase	test/v2v-test-suite.cc	/^class V2vClusterInfoHeaderTestCase: public TestCase {$/;"	c	file:
+V2vClusterSap	model/v2v-cluster-sap.h	/^class V2vClusterSap {$/;"	c	namespace:ns3
+V2vControlClient	model/v2v-control-client.cc	/^V2vControlClient::V2vControlClient () {$/;"	f	class:ns3::V2vControlClient
+V2vControlClient	model/v2v-control-client.h	/^class V2vControlClient: public Application {$/;"	c	namespace:ns3
+V2vControlClientHelper	helper/v2v-control-client-helper.cc	/^V2vControlClientHelper::V2vControlClientHelper(std::string protocolLocal, Address addressLocal,$/;"	f	class:ns3::V2vControlClientHelper
+V2vControlClientHelper	helper/v2v-control-client-helper.h	/^class V2vControlClientHelper {$/;"	c	namespace:ns3
+V2vControlClientTestCase	test/v2v-test-suite.cc	/^V2vControlClientTestCase::V2vControlClientTestCase() :$/;"	f	class:V2vControlClientTestCase
+V2vControlClientTestCase	test/v2v-test-suite.cc	/^class V2vControlClientTestCase: public TestCase {$/;"	c	file:
+V2vFormClusterHeader	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::V2vFormClusterHeader() :$/;"	f	class:ns3::V2vFormClusterHeader
+V2vFormClusterHeader	model/v2v-cluster-header.h	/^class V2vFormClusterHeader: public Header {$/;"	c	namespace:ns3
+V2vFormClusterHeaderTestCase	test/v2v-test-suite.cc	/^V2vFormClusterHeaderTestCase::V2vFormClusterHeaderTestCase() :$/;"	f	class:V2vFormClusterHeaderTestCase
+V2vFormClusterHeaderTestCase	test/v2v-test-suite.cc	/^class V2vFormClusterHeaderTestCase: public TestCase {$/;"	c	file:
+V2vIncidentEventHeader	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::V2vIncidentEventHeader():$/;"	f	class:ns3::V2vIncidentEventHeader
+V2vIncidentEventHeader	model/v2v-cluster-header.h	/^class V2vIncidentEventHeader: public Header {$/;"	c	namespace:ns3
+V2vIncidentEventHeaderTestCase	test/v2v-test-suite.cc	/^V2vIncidentEventHeaderTestCase::V2vIncidentEventHeaderTestCase() :$/;"	f	class:V2vIncidentEventHeaderTestCase
+V2vIncidentEventHeaderTestCase	test/v2v-test-suite.cc	/^class V2vIncidentEventHeaderTestCase: public TestCase {$/;"	c	file:
+V2vInitiateClusterHeader	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::V2vInitiateClusterHeader() :$/;"	f	class:ns3::V2vInitiateClusterHeader
+V2vInitiateClusterHeader	model/v2v-cluster-header.h	/^class V2vInitiateClusterHeader: public Header {$/;"	c	namespace:ns3
+V2vInitiateClusterHeaderTestCase	test/v2v-test-suite.cc	/^V2vInitiateClusterHeaderTestCase::V2vInitiateClusterHeaderTestCase() :$/;"	f	class:V2vInitiateClusterHeaderTestCase
+V2vInitiateClusterHeaderTestCase	test/v2v-test-suite.cc	/^class V2vInitiateClusterHeaderTestCase: public TestCase {$/;"	c	file:
+V2vMobilityModel	model/v2v-mobility-model.h	/^class V2vMobilityModel : public MobilityModel$/;"	c	namespace:ns3
+V2vTestSuite	test/v2v-test-suite.cc	/^V2vTestSuite::V2vTestSuite() : TestSuite("v2v", UNIT) {$/;"	f	class:V2vTestSuite
+V2vTestSuite	test/v2v-test-suite.cc	/^class V2vTestSuite: public TestSuite {$/;"	c	file:
+V2vUdpEndToEndTestCase	test/v2v-test-suite.cc	/^V2vUdpEndToEndTestCase::V2vUdpEndToEndTestCase() :$/;"	f	class:V2vUdpEndToEndTestCase
+V2vUdpEndToEndTestCase	test/v2v-test-suite.cc	/^class V2vUdpEndToEndTestCase: public TestCase {$/;"	c	file:
+clusterId	model/v2v-cluster-sap.h	/^        uint64_t clusterId;$/;"	m	struct:ns3::V2vClusterSap::IncidentInfo
+clusterId	model/v2v-cluster-sap.h	/^        uint64_t clusterId;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+degree	model/v2v-cluster-sap.h	/^        NodeDegree degree;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+direction	model/v2v-cluster-sap.h	/^        Vector direction;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+imsi	model/v2v-cluster-sap.h	/^        uint64_t imsi;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+incidentType	model/v2v-cluster-sap.h	/^        IncidentType incidentType;$/;"	m	struct:ns3::V2vClusterSap::IncidentInfo
+m_2rStableList	model/v2v-control-client.h	/^    std::map<uint64_t, V2vClusterSap::NeighborInfo> m_2rStableList;    \/\/!< 2rStable Neighbors$/;"	m	class:ns3::V2vControlClient
+m_bounds	model/v2v-mobility-model.h	/^  Rectangle m_bounds;$/;"	m	class:ns3::V2vMobilityModel
+m_chElectionEvent	model/v2v-control-client.h	/^    EventId m_chElectionEvent;                          \/\/!< Event id of pending "CH Request" event$/;"	m	class:ns3::V2vControlClient
+m_changesCounter	model/v2v-control-client.h	/^    uint32_t m_changesCounter;              \/\/!< Count the changes of the state of the vehicle$/;"	m	class:ns3::V2vControlClient
+m_clusterId	model/v2v-cluster-header.h	/^    uint64_t m_clusterId;       \/\/!< Cluster id$/;"	m	class:ns3::V2vInitiateClusterHeader
+m_clusterList	model/v2v-control-client.h	/^    std::map<uint64_t, V2vClusterSap::NeighborInfo> m_clusterList;     \/\/!< Cluster List$/;"	m	class:ns3::V2vControlClient
+m_clusterTimeMetric	model/v2v-control-client.h	/^    double m_clusterTimeMetric;             \/\/!< the timeslot for the node to schedule transmission$/;"	m	class:ns3::V2vControlClient
+m_currentMobility	model/v2v-control-client.h	/^    V2vClusterSap::NeighborInfo m_currentMobility;$/;"	m	class:ns3::V2vControlClient
+m_direction	model/v2v-mobility-model.h	/^  double m_direction;$/;"	m	class:ns3::V2vMobilityModel
+m_directionVariable	model/v2v-mobility-model.h	/^  Ptr<RandomVariableStream> m_directionVariable;$/;"	m	class:ns3::V2vMobilityModel
+m_event	model/v2v-mobility-model.h	/^  EventId m_event;$/;"	m	class:ns3::V2vMobilityModel
+m_factory	helper/v2v-control-client-helper.h	/^    ObjectFactory m_factory;$/;"	m	class:ns3::V2vControlClientHelper
+m_formationCounter	model/v2v-control-client.h	/^    uint32_t m_formationCounter;            \/\/!< Count the cluster formation messages$/;"	m	class:ns3::V2vControlClient
+m_helper	model/v2v-mobility-model.h	/^  ConstantVelocityHelper m_helper;$/;"	m	class:ns3::V2vMobilityModel
+m_incidentCounter	model/v2v-control-client.h	/^    uint32_t m_incidentCounter;             \/\/!< Counter for sent incident packets$/;"	m	class:ns3::V2vControlClient
+m_incidentInfo	model/v2v-cluster-header.h	/^    V2vClusterSap::IncidentInfo m_incidentInfo;         \/\/!< Incident Information$/;"	m	class:ns3::V2vIncidentEventHeader
+m_incidentInfo	model/v2v-control-client.h	/^    V2vClusterSap::IncidentInfo m_incidentInfo;$/;"	m	class:ns3::V2vControlClient
+m_incidentTimestamp	model/v2v-control-client.h	/^    Time m_incidentTimestamp;               \/\/!< Timestamp of last incident report$/;"	m	class:ns3::V2vControlClient
+m_incidentWindow	model/v2v-control-client.h	/^    double m_incidentWindow;                \/\/!< Time Window for incident event generation$/;"	m	class:ns3::V2vControlClient
+m_interval	model/v2v-control-client.h	/^    Time m_interval; 						\/\/!< Packet inter-send time$/;"	m	class:ns3::V2vControlClient
+m_maxUes	model/v2v-control-client.h	/^    uint32_t m_maxUes;                      \/\/!< maximun number of ues$/;"	m	class:ns3::V2vControlClient
+m_minimumTdmaSlot	model/v2v-control-client.h	/^    double m_minimumTdmaSlot;               \/\/!< the minimum tdma slot$/;"	m	class:ns3::V2vControlClient
+m_mobilityInfo	model/v2v-cluster-header.h	/^    V2vClusterSap::NeighborInfo m_mobilityInfo;         \/\/!< Mobile Info$/;"	m	class:ns3::V2vFormClusterHeader
+m_mobilityInfo	model/v2v-cluster-header.h	/^    V2vClusterSap::NeighborInfo m_mobilityInfo;     \/\/!< Mobile Info$/;"	m	class:ns3::V2vClusterInfoHeader
+m_mobilityModel	model/v2v-control-client.h	/^    Ptr<V2vMobilityModel> m_mobilityModel;$/;"	m	class:ns3::V2vControlClient
+m_mode	model/v2v-mobility-model.h	/^  enum Mode m_mode;$/;"	m	class:ns3::V2vMobilityModel	typeref:enum:ns3::V2vMobilityModel::Mode
+m_modeDistance	model/v2v-mobility-model.h	/^  double m_modeDistance;$/;"	m	class:ns3::V2vMobilityModel
+m_modeTime	model/v2v-mobility-model.h	/^  Time m_modeTime;$/;"	m	class:ns3::V2vMobilityModel
+m_overalDelay	model/v2v-control-client.h	/^    double m_overalDelay;                   \/\/!< The aggregated delay of the incident messages$/;"	m	class:ns3::V2vControlClient
+m_peer	model/v2v-control-client.h	/^	Address m_peer;        	 				\/\/!< Peer address$/;"	m	class:ns3::V2vControlClient
+m_peerIncident	model/v2v-control-client.h	/^    Address m_peerIncident;         		\/\/!< Peer address$/;"	m	class:ns3::V2vControlClient
+m_peerListening	model/v2v-control-client.h	/^	Address m_peerListening;       	 		\/\/!< Local address to bind to$/;"	m	class:ns3::V2vControlClient
+m_pktSize	model/v2v-control-client.h	/^	uint32_t m_pktSize;      				\/\/!< Size of packets$/;"	m	class:ns3::V2vControlClient
+m_rStableList	model/v2v-control-client.h	/^    std::map<uint64_t, V2vClusterSap::NeighborInfo> m_rStableList;     \/\/!< rStable Neighbors$/;"	m	class:ns3::V2vControlClient
+m_rxTrace	model/v2v-control-client.h	/^	TracedCallback<Ptr<const Packet>, const Address &> m_rxTrace;$/;"	m	class:ns3::V2vControlClient
+m_sendEvent	model/v2v-control-client.h	/^	EventId m_sendEvent;    				\/\/!< Event id of pending "send packet" event$/;"	m	class:ns3::V2vControlClient
+m_sendIncidentEvent	model/v2v-control-client.h	/^    EventId m_sendIncidentEvent;            \/\/!< Event id of scheduled incident$/;"	m	class:ns3::V2vControlClient
+m_sentCounter	model/v2v-control-client.h	/^    uint32_t m_sentCounter; 				\/\/!< Counter for sent packets$/;"	m	class:ns3::V2vControlClient
+m_seq	model/v2v-cluster-header.h	/^    uint64_t m_seq;                                     \/\/!< Sequence number$/;"	m	class:ns3::V2vFormClusterHeader
+m_seq	model/v2v-cluster-header.h	/^    uint64_t m_seq;                                 \/\/!< Sequence number$/;"	m	class:ns3::V2vClusterInfoHeader
+m_seq	model/v2v-cluster-header.h	/^    uint64_t m_seq;             \/\/!< Sequence number$/;"	m	class:ns3::V2vInitiateClusterHeader
+m_socket	model/v2v-control-client.h	/^	Ptr<Socket> m_socket;       			\/\/!< Associated socket$/;"	m	class:ns3::V2vControlClient
+m_socketIncident	model/v2v-control-client.h	/^    Ptr<Socket> m_socketIncident;           \/\/!< Socket with Cluster Head to send incidents$/;"	m	class:ns3::V2vControlClient
+m_socketListening	model/v2v-control-client.h	/^	Ptr<Socket> m_socketListening;      	\/\/!< Listening socket$/;"	m	class:ns3::V2vControlClient
+m_speed	model/v2v-mobility-model.h	/^  Ptr<RandomVariableStream> m_speed;$/;"	m	class:ns3::V2vMobilityModel
+m_speedVariation	model/v2v-mobility-model.h	/^  double m_speedVariation;$/;"	m	class:ns3::V2vMobilityModel
+m_status	model/v2v-control-client.h	/^    enum NodeStatus m_status;                           \/\/!< Node Degree$/;"	m	class:ns3::V2vControlClient	typeref:enum:ns3::V2vControlClient::NodeStatus
+m_tid	model/v2v-control-client.h	/^	TypeId m_tid;          					\/\/!< Type of the socket used$/;"	m	class:ns3::V2vControlClient
+m_tidIncident	model/v2v-control-client.h	/^    TypeId m_tidIncident;   				\/\/!< Type of the socket used$/;"	m	class:ns3::V2vControlClient
+m_tidListening	model/v2v-control-client.h	/^	TypeId m_tidListening;          		\/\/!< Protocol TypeId$/;"	m	class:ns3::V2vControlClient
+m_timeWindow	model/v2v-control-client.h	/^    double m_timeWindow;                    \/\/!< Time Window for cluster formation$/;"	m	class:ns3::V2vControlClient
+m_ts	model/v2v-cluster-header.h	/^    uint64_t m_ts;                                      \/\/!< Timestamp$/;"	m	class:ns3::V2vIncidentEventHeader
+m_ts	model/v2v-cluster-header.h	/^    uint64_t m_ts;              \/\/!< Timestamp$/;"	m	class:ns3::V2vInitiateClusterHeader
+m_txTrace	model/v2v-control-client.h	/^    TracedCallback<Ptr<const Packet> > m_txTrace;$/;"	m	class:ns3::V2vControlClient
+main	examples/v2v-clustering-example.cc	/^int main(int argc, char *argv[]) {$/;"	f
+ns3	helper/v2v-control-client-helper.cc	/^namespace ns3 {$/;"	n	file:
+ns3	helper/v2v-control-client-helper.h	/^namespace ns3 {$/;"	n
+ns3	model/v2v-cluster-header.cc	/^namespace ns3 {$/;"	n	file:
+ns3	model/v2v-cluster-header.h	/^namespace ns3 {$/;"	n
+ns3	model/v2v-cluster-sap.cc	/^namespace ns3 {$/;"	n	file:
+ns3	model/v2v-cluster-sap.h	/^namespace ns3 {$/;"	n
+ns3	model/v2v-control-client.cc	/^namespace ns3 {$/;"	n	file:
+ns3	model/v2v-control-client.h	/^namespace ns3 {$/;"	n
+ns3	model/v2v-mobility-model.cc	/^namespace ns3 {$/;"	n	file:
+ns3	model/v2v-mobility-model.h	/^namespace ns3 {$/;"	n
+position	model/v2v-cluster-sap.h	/^        Vector position;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+ts	model/v2v-cluster-sap.h	/^        Time ts;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+v2vTestSuite	test/v2v-test-suite.cc	/^static V2vTestSuite v2vTestSuite;$/;"	v	file:
+velocity	model/v2v-cluster-sap.h	/^        Vector velocity;$/;"	m	struct:ns3::V2vClusterSap::NeighborInfo
+~V2vClusterInfoHeader	model/v2v-cluster-header.cc	/^V2vClusterInfoHeader::~V2vClusterInfoHeader(){$/;"	f	class:ns3::V2vClusterInfoHeader
+~V2vClusterInfoHeaderTestCase	test/v2v-test-suite.cc	/^V2vClusterInfoHeaderTestCase::~V2vClusterInfoHeaderTestCase() {$/;"	f	class:V2vClusterInfoHeaderTestCase
+~V2vClusterSap	model/v2v-cluster-sap.cc	/^V2vClusterSap::~V2vClusterSap () {$/;"	f	class:ns3::V2vClusterSap
+~V2vControlClient	model/v2v-control-client.cc	/^V2vControlClient::~V2vControlClient () {$/;"	f	class:ns3::V2vControlClient
+~V2vControlClientTestCase	test/v2v-test-suite.cc	/^V2vControlClientTestCase::~V2vControlClientTestCase() {$/;"	f	class:V2vControlClientTestCase
+~V2vFormClusterHeader	model/v2v-cluster-header.cc	/^V2vFormClusterHeader::~V2vFormClusterHeader(){$/;"	f	class:ns3::V2vFormClusterHeader
+~V2vFormClusterHeaderTestCase	test/v2v-test-suite.cc	/^V2vFormClusterHeaderTestCase::~V2vFormClusterHeaderTestCase() {$/;"	f	class:V2vFormClusterHeaderTestCase
+~V2vIncidentEventHeader	model/v2v-cluster-header.cc	/^V2vIncidentEventHeader::~V2vIncidentEventHeader(){$/;"	f	class:ns3::V2vIncidentEventHeader
+~V2vIncidentEventHeaderTestCase	test/v2v-test-suite.cc	/^V2vIncidentEventHeaderTestCase::~V2vIncidentEventHeaderTestCase() {$/;"	f	class:V2vIncidentEventHeaderTestCase
+~V2vInitiateClusterHeader	model/v2v-cluster-header.cc	/^V2vInitiateClusterHeader::~V2vInitiateClusterHeader(){$/;"	f	class:ns3::V2vInitiateClusterHeader
+~V2vInitiateClusterHeaderTestCase	test/v2v-test-suite.cc	/^V2vInitiateClusterHeaderTestCase::~V2vInitiateClusterHeaderTestCase() {$/;"	f	class:V2vInitiateClusterHeaderTestCase
+~V2vUdpEndToEndTestCase	test/v2v-test-suite.cc	/^V2vUdpEndToEndTestCase::~V2vUdpEndToEndTestCase() {$/;"	f	class:V2vUdpEndToEndTestCase
