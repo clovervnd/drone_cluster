@@ -112,9 +112,14 @@ V2vMobilityModel::DoInitializePrivate (void)
   double speed = m_speed->GetValue ();
   m_direction = 1.0;
 
-  UniformRandomVariable randomVariable;
-  double s = std::ceil(randomVariable.GetValue(-m_speedVariation, m_speedVariation) * 100 + 0.5)/100;
+  // UniformRandomVariable randomVariable;
+  // double s = std::ceil(randomVariable.GetValue(-m_speedVariation, m_speedVariation) * 100 + 0.5)/100;
 
+  // WJ: Fixed random variable declaration according to NS-3 documentation
+  Ptr<UniformRandomVariable> randomVariable = CreateObject<UniformRandomVariable> ();
+  double randomNum = randomVariable->GetValue(-m_speedVariation, m_speedVariation);
+  double s = std::ceil(randomNum * 100 + 0.5)/100;
+  
   Vector vector (m_direction * (speed+s),
                  0 ,
                  0.0);

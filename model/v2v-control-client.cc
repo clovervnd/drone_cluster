@@ -482,8 +482,12 @@ V2vControlClient::HandleRead (Ptr<Socket> socket) {
                         //!< Handle chElection Event
                         m_chElectionEvent = Simulator::Schedule (Seconds(waitingTime), &V2vControlClient::FormCluster, this);
 
-                        UniformRandomVariable randomIncident;
-                        ScheduleIncidentEvent (Seconds (randomIncident.GetValue ((int)waitingTime + 1, m_incidentWindow)));
+                        // UniformRandomVariable randomIncident;
+                        // ScheduleIncidentEvent (Seconds (randomIncident.GetValue ((int)waitingTime + 1, m_incidentWindow)));
+                        // WJ: Fixed random variable declaration according to NS-3 documentation
+                        Ptr<UniformRandomVariable> randomIncident = CreateObject<UniformRandomVariable> ();
+                        double randomNum = randomIncident->GetValue((int)waitingTime + 1, m_incidentWindow);
+                        ScheduleIncidentEvent (Seconds (randomNum));
 					}
 					else{
                         /// Not in 2rStableList
@@ -924,9 +928,14 @@ V2vControlClient::Send (void) {
             NS_LOG_UNCOND ("[HandleRead] => NodeId: " << m_currentMobility.imsi << " WaitingTime is: " << waitingTime);
             m_chElectionEvent = Simulator::Schedule (Seconds(waitingTime), &V2vControlClient::FormCluster, this);
 
-            UniformRandomVariable randomIncident;
-            ScheduleIncidentEvent (Seconds (randomIncident.GetValue ((int)waitingTime + 1, m_incidentWindow)));
+            // UniformRandomVariable randomIncident;
+            // ScheduleIncidentEvent (Seconds (randomIncident.GetValue ((int)waitingTime + 1, m_incidentWindow)));
 
+            // WJ: Fixed random variable declaration according to NS-3 documentation
+            Ptr<UniformRandomVariable> randomVariable = CreateObject<UniformRandomVariable> ();
+            double randomNum = randomVariable->GetValue((int)waitingTime + 1, m_incidentWindow);
+            ScheduleIncidentEvent (Seconds (randomNum));
+            
             break;
         }
         case V2vControlClient::CLUSTER_FORMATION:
